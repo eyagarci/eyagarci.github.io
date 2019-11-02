@@ -1,9 +1,9 @@
 # Basic
-title: Eya Garci
-subtitle: 个人空间
+title: Eya GARCI
+subtitle: personal space
 description: Welcome to my blog!
 # 头像里面的标题
-avatarTitle: H
+avatarTitle: Eya
 # 头像里面的描述
 avatarDesc: Artificial Intelligence
 url: "https://eyagarci.github.io/"
@@ -52,13 +52,13 @@ cover_color: clear
 
 # The blog button should not be removed.
 blog_button:
-    title: 博客主页
+    title: Home page
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: 所有文章, description: archive, url: '/archive'}
-    - {title: 标签, description: tags, url: '/tags'}
-    - {title: 关于我, description: about, url: '/about'}
+    - {title: Articles, description: archive, url: '/archive'}
+    - {title: Blog, description: tags, url: '/tags'}
+    - {title: Resume, description: about, url: '/about'}
 
 
 # Pagination
