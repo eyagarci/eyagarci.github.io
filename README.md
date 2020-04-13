@@ -1,3 +1,1 @@
-
-
-# Personal Blog
+# Andy Zhang's Blog

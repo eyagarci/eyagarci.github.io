@@ -1,67 +1,14 @@
-# Basic
-title: Eya GARCI
-subtitle: Artificial Intelligence Developer
-description: Welcome to my blog!
-# 头像里面的标题
-avatarTitle: Eya GARCI
-# 头像里面的描述
-avatarDesc: Personal Blog
-url: "https://eyagarci.github.io/"
+# Site settings
+title: Andy Zhang
+description: > # this means to ignore newlines until "baseurl:"
+  Irregularly updated and typically outdated.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://zhangandyx.github.io" # the base hostname & protocol for your site
+github_username:  zhangandyx
+twitter_username: zhangandyx
 
-# Comment
-comment:
-    # disqus: leopard
-    # # uyan: 2143225  # 有言id,登录有言官网申请
+# Build settings
+markdown: kramdown
 
-# Social
-social:
-    # weibo: 5366874726
-    github: eyagarci
-    mail: garci.eya@gmail.com
-
-# 百度统计
-# 使用博客模板请去掉或者更换 id
-baidu:
-    id: 4cee09928f6efaba04655ffd61981950
-
-# # Google Analytics
-# # 使用博客模板请去掉或者更换 id
-# ga:
-#     id: UA-84134159-3
-#     host: auto
-
-
-# 《----------------- 上面的信息修改成你自己的 ---------------------------》
-#
-#
-#  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
-#
-#
-# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
-
-
-permalink: /:year/:month/:title/
-# Format
-highlighter: rouge
-
-textColor: #FF0000
-
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: clear
-
-# The blog button should not be removed.
-blog_button:
-    title: Home page
-
-# Navigation buttons in the front page.s
-nav:
-    - {title: Articles, description: archive, url: '/archive'}
-    - {title: Blog, description: tags, url: '/tags'}
-    - {title: Resume, description: about, url: '/about'}
-
-
-# Pagination
-gems: [jekyll-paginate,jekyll-sitemap]
-paginate: 20
-paginate_path: "page/:num/"
+kramdown:
+  input: GFM
