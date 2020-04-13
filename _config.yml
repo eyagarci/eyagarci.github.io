@@ -1,14 +1,17 @@
 # Site settings
-title: Andy Zhang
-description: > # this means to ignore newlines until "baseurl:"
-  Irregularly updated and typically outdated.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://zhangandyx.github.io" # the base hostname & protocol for your site
-github_username:  zhangandyx
-twitter_username: zhangandyx
+title: Neurocat blog
+email: 
+description: "Artificial Intelligence."
+baseurl: ""
+url: "http://neurocats.github.io"
+github_username:  neurocats
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
+highlighter: rouge
 kramdown:
   input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge

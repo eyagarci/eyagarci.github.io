@@ -1,0 +1,78 @@
+/**********************************************************************************************************************/
+/* General */
+/**********************************************************************************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: neotech;
+    src: url('fonts/neotech.woff') ;
+    format('opentype');
+}
+@font-face {
+    font-family: Haboro;
+    src: url('fonts/HaboroSoft-NorReg.ttf') ;
+}
+/**********************************************************************************************************************/
+/* Wrapper */
+/**********************************************************************************************************************/
+#wrapper{
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+/**********************************************************************************************************************/
+/* Section A - Menu */
+/**********************************************************************************************************************/
+#section_A{
+    height: 100px;
+    position: relative;
+    display:flex;
+    z-index: 100;
+}
+
+#section_A #header_logo{
+    margin-left: 100px;
+    width: 250px;
+    height: 100px;
+    display:flex;
+    align-items:center;
+}
+#section_A #header_logo img{
+    max-height: 100px;
+    width: auto;
+    padding-right: 10px;
+}
+
+#section_A #header_logo h1 {
+    color: #3d545c;
+    font-size: 40px;
+    font-family: neotech;
+}
+#section_A #header_logo p {
+    color: #3d545c;
+    font-family: neotech;
+}
+
+#section_A #menu{
+    height: 100px;
+    position: absolute;
+    right: 50px;
+    display:flex;
+    align-items:center;
+}
+
+#section_A #menu li{
+    display:inline-block;
+    padding: 10px;
+}
+
+#section_A #menu li a{
+    color: #3d545c;
+    font-family: Haboro;
+    font-size: 1.6em;
+    text-decoration: none;
+}

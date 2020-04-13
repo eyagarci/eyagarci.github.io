@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+
+<title>HTML5 Canvas</title>
+
+<script src="../Modernizr/modernizr-2.0.6.js"></script>
+
+<script type="text/javascript">
+
+//stuff
+
+window.addEventListener("load", windowLoadHandler, false);
+
+//for debug messages while testing code
+var Debugger = function() { };
+Debugger.log = function(message) {
+	try {
+		console.log(message);
+	}
+	catch (exception) {
+		return;
+	}
+}
+
+function windowLoadHandler() {
+	canvasApp();
+}
+
+function canvasSupport() {
+	return Modernizr.canvas;
+}
+
+function ndim(dims, index){
+    // assume dims and index have the same length
+    ind = 1*index[0];
+    for(var i=1; i < dims.length; i++){
+        ind = ind + dims[i]*dims[i-1]
+    }
+    return ind
+}
+// start
+// a simple memoize function that takes in a function with 3 arguments
+// and returns a memoized function
+function memoize(func, dims) {
+    var dims = dims;
+    var l = 1;
+    for(var i=0; i<dims.length; i++){
+        l = l*dims[i]
+    }
+
+    var cache = Array(l);
+
+    // Warning, very flexible syntax, be careful, that you respect dims that you inserted
+
+    return function() {
+        var key = JSON.stringify(arguments);
+        if(cache[key]) {
+            return cache[key];
+        }
+        else {
+            var val = func.apply(this, arguments);
+            cache[key] = val;
+            return val;
+        }
+    };
+}
+
+
+function canvasApp() {
+	if (!canvasSupport()) {
+		return;
+	}
+
+	var displayCanvas = document.getElementById("displayCanvas");
+	var context = displayCanvas.getContext("2d");
+	var displayWidth = displayCanvas.width;
+	var displayHeight = displayCanvas.height;
+
+	//off screen canvas used only when exporting image
+	var exportCanvas = document.createElement('canvas');
+	exportCanvas.width = displayWidth;
+	exportCanvas.height = displayHeight;
+	var exportCanvasContext = exportCanvas.getContext("2d");
+
+
+	var numCircles = 8;
+	var maxMaxRad = 400;
+	var minMaxRad = 200;
+	var minRadFactor = 0;
+	var circles;
+	var iterations = 7;
+	var numPoints;
+	var timer;
+	var drawsPerFrame = 37+17;
+	var drawCount;
+	var bgColor;
+	var lineWidth;
+	var minX, maxX, minY, maxY;
+	var lineNumber;
+	var twistAmount;
+	var fullTurn;
+	var pointArray;
+
+	init();
+
+	function init() {
+		// important ones global on top
+		numPoints = Math.pow(2,iterations)+1;
+        xSqueeze = 0.75;
+
+        fullTurn = Math.PI*2*numPoints/(1+numPoints);
+
+		minX = -maxMaxRad;
+		maxX = displayWidth + maxMaxRad;
+		minY = displayHeight/2-50;
+		maxY = displayHeight/2+50;
+
+		twistAmount = 0.3141*Math.PI*2;
+
+		stepsPerSegment = Math.floor(500/numCircles);
+
+        strokecol = "#ffffff22";
+        bgColor = "#ffffff";
+
+		lineWidth = 1.25;
+
+		startGenerate();
+	}
+
+	function clear(){
+        context.clearRect(0,0,displayWidth,displayHeight);
+    }
+
+	function startGenerate() {
+		drawCount = 0;
+		context.setTransform(1,0,0,1,0,0);
+
+		clear();
+
+		setCircles();
+
+		lineNumber = 0;
+
+		if(timer) {clearInterval(timer);}
+		timer = setInterval(onTimer,1000/10);
+
+	}
+
+    function LinePoints(iterations) {
+        var pointList = {};
+        var pointArray = [];
+        pointList.first = {x:0, y:1};
+        var lastPoint = {x:1, y:1};
+        var minY = 1;
+        var maxY = 1;
+        var point;
+        var nextPoint;
+        var dx, newX, newY;
+        fit(iterations);
+
+        function fit(iterations) {
+            pointList.first.next = lastPoint;
+            for (var i = 0; i < iterations; i++) {
+                point = pointList.first;
+                while (point.next != null) {
+                    nextPoint = point.next;
+
+                    dx = nextPoint.x - point.x;
+                    newX = 0.5*(point.x + nextPoint.x);
+                    newY = 0.5*(point.y + nextPoint.y);
+                    newY += dx*(Math.random()*2 - 1);
+
+                    var newPoint = {x:newX, y:newY};
+
+                    //min, max
+                    if (newY < minY) {
+                        minY = newY;
+                    }
+                    else if (newY > maxY) {
+                        maxY = newY;
+                    }
+
+                    // put between points
+                    newPoint.next = nextPoint;
+                    point.next = newPoint;
+
+                    point = nextPoint;
+                }
+            }
+
+            //normalize to values between 0 and 1
+            //Also store y values in array here.
+            if (maxY != minY) {
+                var normalizeRate = 1/(maxY - minY);
+                point = pointList.first;
+                while (point != null) {
+                    point.y = normalizeRate*(point.y - minY);
+                    pointArray.push(point.y);
+                    point = point.next;
+                }
+            }
+            //unlikely that max = min, but could happen if using zero iterations. In this case, set all points equal to 1.
+            else {
+                point = pointList.first;
+                while (point != null) {
+                    point.y = 1;
+                    pointArray.push(point.y);
+                    point = point.next;
+                }
+            }
+        }
+
+        function get(){
+            return pointArray
+        }
+
+        function next(){
+            //clear();
+            //pointList = {};
+            //pointArray = [];
+            //pointList.first = {x:0, y:1};
+            //lastPoint = {x:1, y:1};
+            //init();
+            return get();
+            //a = pointArray;
+            //for(i=0;i<a.length;i++){
+            //    elem = a[i];
+            //    neigh = a[(i+1)%a.length];
+            //    dy = (Math.random()-0.5)*(elem-neigh);
+            //    a[i] = elem + dy;
+            //}
+
+        }
+        return {get: get, next: next}
+    }
+
+    function newCircle(i){
+	    /*Generates a new circle for the Zylinder*/
+		maxR = minMaxRad+Math.random()*(maxMaxRad-minMaxRad);
+		minR = minRadFactor*maxR;
+		linePoints = LinePoints(iterations);
+
+		var newCircle = {
+			centerX: minX + i/(numCircles-1)*(maxX - minX),
+			centerY: minY + i/(numCircles-1)*(maxY - minY),
+			maxRad : maxR,
+			minRad : minR,
+			phase : i/(numCircles-1)*twistAmount,
+			//phase: Math.random()*Math.PI*2,
+			pointArray : linePoints
+			};
+		console.log(newCircle);
+		return newCircle
+	}
+
+	function setCircles() {
+		var i;
+
+		circles = [];
+		pointArray = [];
+
+		for (i = 0; i < numCircles; i++) {
+			circles.push(newCircle(i));
+		}
+	}
+
+    function _getRad(i, k){
+        return circles[i].minRad + circles[i].pointArray.get()[k]*(circles[i].maxRad - circles[i].minRad);
+    }
+
+    function lincosParamtamtam(j){
+        // i and j have the least dimension thats why i dont want to cache numPoints
+        var linParam = j/(stepsPerSegment-1);
+        var cosParam = 0.5-0.5*Math.cos(linParam*Math.PI);
+
+        return {linParam: linParam, cosParam: cosParam}
+    }
+
+    var _lincosParamtamtam = memoize(lincosParamtamtam, [stepsPerSegment]);
+
+    function Paramtamtam(i, j) {
+        // i and j have the least dimension thats why i dont want to cache numPoints
+        var lincos = _lincosParamtamtam(j);
+        var linParam = lincos.linParam;
+        var cosParam = lincos.cosParam;
+
+
+        //interpolate phase
+        //draw between i and i+1 circle
+        //draw between i and i+1 circle
+        var phase0 = circles[i].phase;
+        var phase1 = circles[i+1].phase;
+        var phase = phase0 + cosParam*(phase1 - phase0);
+        //interpolate center
+        centerX = circles[i].centerX + linParam*(circles[i+1].centerX - circles[i].centerX);
+        centerY = circles[i].centerY + linParam*(circles[i+1].centerY - circles[i].centerY);
+
+        return {
+            // not needed anymore lin: linParam,
+            cos: cosParam,
+            phase: phase,
+            centerX: centerX,
+            centerY: centerY
+        }
+    }
+
+    var _Paramtamtam = memoize(Paramtamtam, [numCircles, stepsPerSegment]);
+
+    function _diff(theta, phase) {
+        var xd = xSqueeze*rad*Math.cos(theta + phase);
+        var yd = rad*Math.sin(theta + phase);
+        return {xd: xd, yd: yd}
+    }
+
+    // FIXME PREALLOCATION
+
+	function segment(k, i, j){
+	    // i - circles.length
+        // j - stepspersegment
+        // k - numPoints
+        localLine = k;
+        ////i
+
+        var par = _Paramtamtam(i, j);
+        var cosParam = par.cos;
+        var phase = par.phase;
+        var centerX = par.centerX;
+        //interpolate radius
+        rad0 = _getRad(i, k);
+        rad1 = _getRad(i+1, k);
+        rad = rad0 + cosParam*(rad1 - rad0);
+
+        // position on zylinder
+        theta = -localLine/(numPoints-1)*fullTurn;
+        d = _diff(theta, phase);
+
+        x0 = centerX + d.xd;
+        y0 = centerY + d.yd;
+
+        return {x:x0, y:y0}
+    }
+
+	function onTimer() {
+		var i;
+		var theta;
+        // FIXME modulo
+        if(lineNumber%1==0) {
+            clear();
+        }
+
+        context.lineJoin = "miter";
+        context.strokeStyle = strokecol;
+        context.lineWidth = lineWidth;
+        context.beginPath();
+        // for every
+		for (var k = 0; k < drawsPerFrame; k++) {
+            localLine = (lineNumber+k)%numPoints;
+
+            seg = segment(localLine, 0, 0);
+			context.moveTo(seg.x,seg.y);
+
+			for (i=0; i < circles.length-1; i++) {
+				for (j = 0; j < stepsPerSegment; j++) {
+
+                    seg = segment(localLine, i, j);
+					context.lineTo(seg.x,seg.y);
+
+				}
+
+			}
+
+        }
+        context.stroke();
+        lineNumber++;
+        if (lineNumber > numPoints-1) {
+            lineNumber = 0;
+            for(i=0;i<circles.length;i++){
+                circles[i].pointArray.next()
+            }
+            //setCircles()
+            //clearInterval(timer);
+            //timer = null;
+            //break;
+        }
+	}
+
+	//Here is the function that defines a noisy (but not wildly varying) data set which we will use to draw the curves.
+	//We first define the points in a linked list, but then store the values in an array.
+}
+
+</script>
+
+<title>HTML5 Canvas Generative Art</title>
+
+<style type="text/css">
+	body {background-image:url(/bg.svg);} 
+	h4 {font-family: sans-serif; color:#333333; font-size:16px;}
+	h3 {font-family: sans-serif; color:#333333;}
+	p {font-family: sans-serif; color:#333333; font-size:14px;}
+		#caption {position:absolute; width:1024px; text-align:center; top:520px; z-index:1}
+	a {font-family: sans-serif; color:#d15423; text-decoration:none;}
+	canvas {background: url(bg.svg);}
+		#displayCanvas {position:absolute; top:10px; z-index:0;}
+	div {}
+		#container {width:1024px; height:576px; margin:auto;}
+</style>
+
+</head>
+<body>
+<div id="container"> 
+    <canvas id="displayCanvas" width="1024px" height="576px" ba>
+        Your browser does not support HTML5 canvas.
+    </canvas>
+</div>
+</body>
+</html>
