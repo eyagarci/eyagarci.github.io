@@ -1,11 +1,11 @@
 # Site settings
-title: Andrej Karpathy blog
+title: Eya GARCI blog
 email: 
-description: "Musings of a Computer Scientist."
+description: "Artificial Intelligence Developer."
 baseurl: ""
-url: "http://karpathy.github.io"
-twitter_username: karpathy
-github_username:  karpathy
+url: "http://eyagarci.github.io"
+twitter_username: Eya_GARCI
+github_username:  Eya_GARCI
 
 # Build settings
 markdown: kramdown
