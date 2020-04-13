@@ -1,11 +1,11 @@
 # Site settings
-title: Eya GARCI blog
+title: Eya Garci Blog
 email: 
 description: "Artificial Intelligence Developer."
 baseurl: ""
 url: "http://eyagarci.github.io"
-twitter_username: EyaGARCI
-github_username:  Eya_GARCI
+twitter_username: eyagarci
+github_username:  eya_garci
 
 # Build settings
 markdown: kramdown
