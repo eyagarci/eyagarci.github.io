@@ -1,15 +1,4 @@
-# Neurocat Blog
+# My blog
 
-We are a Berlin startup mastering Reinforcement Learning and Deep Learning.
+This is my blog, uses [Jekyll](http://jekyllrb.com/). I was tired of bloated, slow Wordpress that locked up all my content.
 
-In this blog you will find Blogposts and Tutorials for Reinforcement and Deep Learning in Tensorflow.
-
-Have a look: [Neurocat Blog](https://neurocats.github.io/)
-
-## Questions?
-Contact: miau@neurocat.ai
-
-
-
-## Acknowledgement
-Thanks to Karpathy for providing such a nice open blog framework.

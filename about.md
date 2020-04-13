@@ -3,6 +3,5 @@ layout: page
 title: About
 permalink: /about/
 ---
-Berlin startup mastering Reinforcement Learning and Deep Learning.
 
-Contact: miau@neurocat.ai
+See my [website](http://cs.stanford.edu/people/karpathy/).

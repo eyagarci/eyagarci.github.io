@@ -1,10 +1,11 @@
 # Site settings
-title: Neurocat blog
+title: Andrej Karpathy blog
 email: 
-description: "Artificial Intelligence."
+description: "Musings of a Computer Scientist."
 baseurl: ""
-url: "http://neurocats.github.io"
-github_username:  neurocats
+url: "http://karpathy.github.io"
+twitter_username: karpathy
+github_username:  karpathy
 
 # Build settings
 markdown: kramdown
