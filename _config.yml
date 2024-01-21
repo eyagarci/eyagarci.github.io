@@ -19,18 +19,18 @@ timezone: America/Los_Angles
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: ~eya_garci~                     # the main title
+title: Eya Garci                    # the main title
 
-tagline: Doc site for AI | Tech | HomeLab | Crypto | Docker and more 🚀  # it will display as the sub-title
+tagline: My portfolio  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Doc site for AI, Tech, HomeLab, Crypto and Self Hosted projects 
+  My portfolio
 
-# fill in the protocol & hostname for your site, e.g., "https://eya_garci.github.io"
-url: "https://eya_garci.github.io"
+# fill in the protocol & hostname for your site, e.g., "https://eyagarci.github.io"
+url: "https://eyagarci.github.io"
 
 github:
-  username: eya_garci             # change to your github username
+  username: eyagarci             # change to your github username
 
 twitter:
   username: kratomsyndicate            # change to your twitter username
@@ -41,12 +41,12 @@ youtube:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: eya_garci
+  name: eyagarci
   # email:              # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://links.thekratomsyndicate.com/      # change to your homepage
-    - https://github.com/eya_garci       # change to your github homepage
+    - https://github.com/eyagarci       # change to your github homepage
     # Uncomment below to add more social links
     - https://www.facebook.com/kratomsyndicate
     # - https://www.linkedin.com/in/username
@@ -89,7 +89,7 @@ avatar: /assets/images/logo.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: /assets/images/eya_garci.webp    # string, local or CORS resources
+social_preview_image: /assets/images/eyagarci.webp    # string, local or CORS resources
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -105,9 +105,9 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: eyagarci/eya_garci.github.io          # <gh-username>/<repo>
+    repo: eyagarci/eyagarci.github.io          # <gh-username>/<repo>
     repo_id: R_kgDOIwBa0g
-    category: Discus Bot for eya_garci.github.io
+    category: Discus Bot for eyagarci.github.io
     category_id: DIC_kwDOIwBa0s4CWN9o
     mapping:           # optional, default to 'pathname'
     input_position:    # optional, default to 'bottom'
