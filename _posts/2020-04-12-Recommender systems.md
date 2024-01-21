@@ -1,11 +1,13 @@
 ---
 layout: post
 comments: true
-title:  "Chapter 3: Recommender systems"
-excerpt: ""
+title:  "Recommender systems"
 date:   2020-04-12 23:00:00
+categories: [ai]
+tags: [docs,ai, rs]    
+image:
+  path: /assets/imgs/headers/rs.jpg
 ---
-
 ## Recommender Sytems
 
 ### Introduction

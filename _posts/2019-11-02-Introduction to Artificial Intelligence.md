@@ -1,9 +1,12 @@
 ---
 layout: post
 comments: true
-title:  "Chapter 1: Introduction to Artificial Intelligence"
-excerpt: ""
-date:   2019-11-02 22:00:00
+title: "Introduction to Artificial Intelligence"
+date: 2019-11-02 22:00:00
+categories: [ai]
+tags: [docs,ai]    
+image:
+  path: /assets/imgs/headers/ai.jpg
 ---
 
 ## Introduction 

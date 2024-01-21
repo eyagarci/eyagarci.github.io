@@ -1,9 +1,12 @@
 ---
 layout: post
 comments: true
-title:  "Chapter 5: Natural Language Processing NLP"
-excerpt: ""
+title:  "Natural Language Processing NLP"
 date:   2023-12-03 22:00:00
+categories: [ai]
+tags: [docs,ai, NLP]    
+image:
+  path: /assets/imgs/headers/nlp.jpg
 ---
 
 ## Introduction 
