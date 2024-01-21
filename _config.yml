@@ -33,10 +33,10 @@ github:
   username: eyagarci             # change to your github username
 
 twitter:
-  username: garci_eya            # change to your twitter username
+  username: kratomsyndicate            # change to your twitter username
 
 youtube:
-  channelid: UCADyIIhj1J7-6eEkqrsbpGg
+  channelid: UC4oA-og11UttKiKVqpx9AdQ
 
 social:
   # Change to your full name.
@@ -49,8 +49,8 @@ social:
     - https://github.com/eyagarci       # change to your github homepage
     # Uncomment below to add more social links
     #- https://www.facebook.com/kratomsyndicate
-    - https://www.linkedin.com/in/eya-garci-159285a7/
-    - https://twitter.com/garci_eya
+    # - https://www.linkedin.com/in/username
+    #- https://twitter.com/kratomsyndicate
 
 google_site_verification: "vurRDdv3RazIE_zO_B_v35Pu6q_9wkfaae9iyGMRRas"            # fill in to your verification string
 
