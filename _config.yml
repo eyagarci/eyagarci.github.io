@@ -19,12 +19,12 @@ timezone: America/Los_Angles
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Eya Garci                    # the main title
+title: Eya_Garci                    # the main title
 
-tagline: My portfolio  # it will display as the sub-title
+tagline: My Portfolio  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  My portfolio
+  My Portfolio 
 
 # fill in the protocol & hostname for your site, e.g., "https://eyagarci.github.io"
 url: "https://eyagarci.github.io"
@@ -46,7 +46,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://links.thekratomsyndicate.com/      # change to your homepage
-    - https://github.com/eyagarci       # change to your github homepage
+    - https://github.com/eyagarci      # change to your github homepage
     # Uncomment below to add more social links
     - https://www.facebook.com/kratomsyndicate
     # - https://www.linkedin.com/in/username
