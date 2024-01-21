@@ -7,15 +7,7 @@ image:
   path: /assets/imgs/headers/MLvsDL.webp
 ---
 
-## Machine Learning
-
-Machine Learning (ML) is a branch of computer science where we develop algorithms that make a machine learn to do something without actually making computations about it. The basic premise of machine learning is to build algorithms that can receive input data and use statistical analysis to predict an output while updating outputs as new data becomes available.
-Machine Learning is classified into 3 types of algorithms -
-Supervised Learning — [Link coming soon in a future blog]
-Unsupervised Learning — [Link coming soon in a future blog]
-Reinforcement Learning — [Link coming soon in a future blog]
-
-## Difference between Artificial Intelligence, Machine Learning, and Deep Learning
+# Difference between Artificial Intelligence, Machine Learning, and Deep Learning
 
 Nowadays many misconceptions are there related to the words machine learning, deep learning and artificial intelligence(AI), most of the people think all these things are the same whenever they hear the word AI, they directly relate that word to machine learning or vice versa, well yes, these things are related to each other but not the same. Let’s see how.
 AI means to replicate a human brain, the way a human brain thinks, works and functions. The truth is we are not able to establish a proper AI till now but we are very close to establish it, one of the examples of AI is Sophia, the most advanced AI model present today. The main goal here is to increase the success rate of an algorithm instead of increasing accuracy. It works like a computer program that does smart work.
