@@ -2,8 +2,11 @@
 layout: post
 comments: true
 title:  "Chapter 2: Machine Learning VS Deep Learning"
-excerpt: ""
 date:   2020-02-16 23:00:00
+categories: [ai]
+tags: [docs,ai, MachineLearning, DeepLearning]    
+image:
+  path: /assets/imgs/headers/MLvsDL.webp
 ---
 
 ## Machine Learning
