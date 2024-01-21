@@ -19,9 +19,9 @@ timezone: America/Los_Angles
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: ~eyagarci~                     # the main title
+title: Eya_GARCI                     # the main title
 
-tagline: My Portfolio for AI | Tech | Docker and more 🚀  # it will display as the sub-title
+tagline: Machine Learning Engineer  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   My Portfolio
