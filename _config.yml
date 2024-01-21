@@ -19,18 +19,18 @@ timezone: America/Los_Angles
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: eyagarci                   # the main title
+title: eya_garci                   # the main title
 
 tagline: My Portfolio  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   My Portfolio 
 
-# fill in the protocol & hostname for your site, e.g., "https://eyagarci.github.io"
-url: "https://eyagarci.github.io"
+# fill in the protocol & hostname for your site, e.g., "https://eya_garci.github.io"
+url: "https://eya_garci.github.io"
 
 github:
-  username: eyagarci             # change to your github username
+  username: eya_garci           # change to your github username
 
 twitter:
   username: kratomsyndicate            # change to your twitter username
@@ -105,9 +105,9 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: eyagarci/eyagarci.github.io          # <gh-username>/<repo>
+    repo: eyagarci/eya_garci.github.io          # <gh-username>/<repo>
     repo_id: R_kgDOIwBa0g
-    category: Discus Bot for eyagarci.github.io
+    category: Discus Bot for eya_garci.github.io
     category_id: DIC_kwDOIwBa0s4CWN9o
     mapping:           # optional, default to 'pathname'
     input_position:    # optional, default to 'bottom'
