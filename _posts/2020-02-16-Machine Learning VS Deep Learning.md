@@ -1,4 +1,6 @@
 ---
+layout: post
+comments: true
 title:  "Chapter 2: Machine Learning VS Deep Learning"
 date:   2020-02-16 23:00:00
 categories: [ai]

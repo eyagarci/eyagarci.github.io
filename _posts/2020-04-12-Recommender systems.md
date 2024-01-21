@@ -1,4 +1,6 @@
 ---
+layout: post
+comments: true
 title:  "Chapter 3: Recommender systems"
 date:   2020-04-12 23:00:00
 categories: [ai]

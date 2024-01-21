@@ -1,4 +1,6 @@
 ---
+layout: post
+comments: true
 title:  "Chapter 4: Computer Vision"
 date:   2023-12-02 22:00:00
 categories: [ai]

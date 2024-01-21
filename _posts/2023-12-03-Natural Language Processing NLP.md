@@ -1,4 +1,6 @@
 ---
+layout: post
+comments: true
 title:  "Chapter 5: Natural Language Processing NLP"
 date:   2023-12-03 22:00:00
 categories: [ai]
