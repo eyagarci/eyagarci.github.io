@@ -1,6 +1,6 @@
 ---
 title: "Building Docker Image"
-date: 2024-01-22 22:00:00 
+date:   2023-12-30 22:00:00
 categories: [docker]
 tags: [docker,docs,linux,windows]    
 image:
