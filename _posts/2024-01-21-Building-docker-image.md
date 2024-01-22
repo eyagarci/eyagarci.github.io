@@ -139,8 +139,8 @@ echo "console.log('Hello from Docker!');" > my_local_data/app.js
 
 # Run the Docker container with volume mount
 docker run -v $(pwd)/my_local_data:/app node:alpine node /app/app.js
-This example runs a Node.js app in a Docker container, and any changes made to app.js in the local directory are immediately reflected inside the container.
 ```
+This example runs a Node.js app in a Docker container, and any changes made to app.js in the local directory are immediately reflected inside the container.
 
 ## Docker Compose
 Docker Compose simplifies the process of defining and running multi-container Docker applications. Create a docker-compose.yml file:
