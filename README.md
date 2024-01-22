@@ -2,7 +2,7 @@
 
 ### Glad to see you here!
 
-I'm an Artificial Intelligence Engineer with a passion for programming, public speaking, travel, and exploring the depths of the human mind.
+I'm a Machine Learning Engineer with a passion for programming, public speaking, travel, and exploring the depths of the human mind.
   
 **Talking about Personal Stuffs:**
 
