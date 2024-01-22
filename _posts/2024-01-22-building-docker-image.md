@@ -7,7 +7,7 @@ image:
   path: /assets/images/headers/docker.webp
 ---
 
-# Introduction to Docker: Revolutionizing Containerization
+## Introduction to Docker: Revolutionizing Containerization
 In the realm of software development, Docker stands as a revolutionary force, providing an efficient solution to the challenges of packaging, distributing, and running applications. Its inception was rooted in the need for consistent and reproducible environments, ultimately revolutionizing containerization.
 
 ## Key Advantages:
@@ -62,14 +62,14 @@ CMD ["echo", "Hello I did it!"]
 
 This Dockerfile uses the alpine image as a base, echoing "Hello I did it!" when the container starts.
 
-### Building a Docker Image
+## Building a Docker Image
 Build the image:
 
 ```shell
 docker build -t my-hello-image .
 ```
 
-### Creating and Running a Container
+## Creating and Running a Container
 
 Creating and Running a Container
 
@@ -92,7 +92,7 @@ docker rm <CONTAINER_ID or CONTAINER_NAME>
 Docker Container Lifecycle:
 Containers follow a lifecycle: docker create, docker start, docker stop, and docker rm. The workflow is to create a container from an image, start it, stop it when done, and optionally remove it.
 
-### Share Local Directory with Docker Container:
+## Share Local Directory with Docker Container:
 Create a Local Directory:
 
 Before sharing, create a local directory on your host machine. For example, let's create a directory named my_local_data.
@@ -142,7 +142,7 @@ docker run -v $(pwd)/my_local_data:/app node:alpine node /app/app.js
 This example runs a Node.js app in a Docker container, and any changes made to app.js in the local directory are immediately reflected inside the container.
 ```
 
-### Docker Compose
+## Docker Compose
 Docker Compose simplifies the process of defining and running multi-container Docker applications. Create a docker-compose.yml file:
 
 ```yaml
@@ -161,7 +161,7 @@ docker-compose up
 Docker Compose will create and start the specified services. Press Ctrl+C to stop.
 
 
-### Advanced Docker Compose
+## Advanced Docker Compose
 Scaling Services
 ```yaml
 version: '3'
