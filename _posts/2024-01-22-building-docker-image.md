@@ -1,13 +1,13 @@
 ---
-title: Building Docker Image
+title: "Building Docker Image"
 date: 2024-01-22 22:00:00 
 categories: [docker]
-tags: [docker,docs,linux,windows]    # Tags should always be in lowercase
+tags: [docker,docs,linux,windows]    
 image:
-  path: /assets/images/headers/docker.webp
+  path: /assets/imgs/headers/docker.webp
 ---
 
-## Introduction to Docker: Revolutionizing Containerization
+## Introduction:
 In the realm of software development, Docker stands as a revolutionary force, providing an efficient solution to the challenges of packaging, distributing, and running applications. Its inception was rooted in the need for consistent and reproducible environments, ultimately revolutionizing containerization.
 
 ## Key Advantages:
