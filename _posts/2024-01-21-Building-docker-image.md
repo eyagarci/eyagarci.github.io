@@ -1,6 +1,6 @@
 ---
 title: "Building Docker Image"
-date:   2023-12-30 22:00:00
+date:   2024-01-21 22:00:00
 categories: [docker]
 tags: [docker,docs,linux,windows]    
 image:
@@ -12,25 +12,25 @@ In the realm of software development, Docker stands as a revolutionary force, pr
 
 ## Key Advantages:
 
-**Consistency Across Environments:**
+- **Consistency Across Environments:**
 Docker ensures applications work consistently across different environments, eliminating the "it works on my machine" challenge.
 
-**Isolated and Portable Containers:**
+- **Isolated and Portable Containers:**
 Using isolated, portable containers, Docker simplifies application creation and deployment, enhancing security and dependency management.
 
-**Portability for Any Environment:**
+- **Portability for Any Environment:**
 Docker containers encapsulate everything needed for an application to run, facilitating seamless deployment across various environments.
 
-**Resource Efficiency:**
+- **Resource Efficiency:**
 Docker containers, sharing the same OS kernel, offer superior resource efficiency, resulting in faster startups and optimized resource utilization.
 
-**Scalability:**
+- **Scalability:**
 Docker's architecture supports easy scaling of applications, ensuring optimal performance and responsiveness to increased workloads.
 
-**DevOps Integration:**
+- **DevOps Integration:**
 Docker plays a crucial role in DevOps, promoting collaboration between development and operations through streamlined deployment pipelines.
 
-**Microservices Architecture:**
+- **Microservices Architecture:**
 Aligned with microservices, Docker allows independent development, deployment, and scaling of services, fostering agility in complex systems.
 
 
@@ -85,6 +85,7 @@ docker ps -a
 ```
 
 Stopping and Removing a Container
+
 ```shell
 docker stop <CONTAINER_ID or CONTAINER_NAME>
 docker rm <CONTAINER_ID or CONTAINER_NAME>
@@ -105,10 +106,9 @@ Use the -v or --volume option to mount the local directory into the container. R
 
 ```shell
 docker run -v [local_path]:[container_path] [image_name]
-```
-Example:
 
-```shell
+# Example:
+
 docker run -v /path/to/my_local_data:/app/data my_image
 ```
 
