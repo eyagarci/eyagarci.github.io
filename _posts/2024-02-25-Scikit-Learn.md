@@ -7,8 +7,6 @@ image:
   path: /assets/imgs/headers/scikitLearn.png
 ---
 
-# Scikit Learn Overview
-
 ## Introduction:
 scikit-learn is a comprehensive machine learning library in Python that offers a wide range of algorithms for various tasks such as classification, regression, clustering, dimensionality reduction, and more. This cheat sheet provides an overview of some commonly used models and techniques in scikit-learn.
 
