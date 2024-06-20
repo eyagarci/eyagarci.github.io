@@ -1,13 +1,11 @@
 ---
-title: "Data Visualization"
+title: "Mastering Data Visualization with Matplotlib and Seaborn"
 date:   2024-03-10 22:00:00
 categories: [Dev]
 tags: [Dev,Python]    
 image:
   path: /assets/imgs/headers/data_visualization.jfif
 ---
-
-# Mastering Data Visualization with Matplotlib and Seaborn
 
 ## Introduction
 Data visualization is a critical skill in data analysis, helping to communicate insights and patterns effectively. Matplotlib and Seaborn are two powerful Python libraries for creating a wide range of static, animated, and interactive visualizations. In this article, we'll cover everything from the basics to advanced functionalities of these libraries, providing code examples to help you generate insightful visualizations.
