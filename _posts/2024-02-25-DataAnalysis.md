@@ -4,7 +4,7 @@ date:   2024-04-04 22:00:00
 categories: [Data]
 tags: [Data]    
 image:
-  path: /assets/imgs/headers/dataAnalysis.webp
+  path: /assets/imgs/headers/dataAnalysis.png
 ---
 
 Advanced data analytics has become an indispensable tool, enabling companies to automate processes and make data-driven decisions. By utilizing sophisticated techniques such as data mining, machine learning, cluster analysis, retention analysis, predictive analysis, cohort analysis, and complex event analysis, businesses can gain a competitive edge and drive innovation.
