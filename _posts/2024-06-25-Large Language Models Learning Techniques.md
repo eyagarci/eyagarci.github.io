@@ -105,7 +105,7 @@ In this section, we used the table as below to help you see the differences and 
 
 |Use Cases|	General inquiries, broad topics, educational purposes.	| Specialized applications, industry-specific needs, customized tasks.	|Situations requiring up-to-date information, and complex queries involving context.|
 
-|Ease of Implementation	High:| Straightforward to implement with existing tools and interfaces.	Low: Requires in-depth setup and training processes.	Medium: Involves integrating language models with retrieval systems.
+|Ease of Implementation	High:| Straightforward to implement with existing tools and interfaces.|	Low: Requires in-depth setup and training processes.	|Medium: Involves integrating language models with retrieval systems.|
 
 ## Conclusion
 In conclusion, prompt engineering, RAG and fine-tuning represent critical strategies for optimizing LLMs in various applications. The choice of technique depends on specific project requirements, data availability, and computational resources. Integrating these techniques judiciously can maximize the effectiveness of LLMs across diverse real-world applications, driving advancements in natural language processing and AI capabilities. By understanding and leveraging these techniques, developers can harness the full potential of LLMs to address complex challenges in today's AI-driven landscape.
