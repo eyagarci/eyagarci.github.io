@@ -13,7 +13,7 @@ In the rapidly advancing field of Artificial Intelligence, large language models
 ## Prompt Engineering
 Prompt engineering involves the strategic design of input prompts to direct the behavior of AI language models. These prompts serve as structured cues, guiding models to produce outputs tailored to specific tasks or objectives, such as summarizing text, answering questions, or generating creative content. By carefully crafting these prompts, developers can achieve precise control over the model's outputs with minimal training data. This makes prompt engineering particularly effective in scenarios where exact output alignment is critical, such as in chatbots or content generation platforms.
 
-<center><img src="/assets/images/prompt-engineering.PNG" alt="Drawing" style="max-width: 100%; height: auto;"/></center>
+<center><img src="/assets/images/prompt-engineering.png" alt="Drawing" style="max-width: 100%; height: auto;"/></center>
 
 However, prompt engineering has its limitations. It relies heavily on the quality and coverage of the prompts provided, which may restrict the model's adaptability to unforeseen or novel inputs. Additionally, designing effective prompts can be time-consuming and may require iterative refinement to optimize performance across different applications.
 
@@ -30,7 +30,7 @@ These techniques enhance prompt engineering by providing structured methods to d
 ## Retrieval Augmented Generation (RAG)
 Retrieval Augmented Generation (RAG) represents a hybrid approach that combines elements of retrieval-based methods with generative models. In RAG, models leverage external knowledge sources—such as databases, documents, or pre-existing knowledge graphs—during the generation process. This allows the model to access vast repositories of information and incorporate this knowledge into its generated outputs.
 
-<center><img src="/assets/images/rag.PNG" alt="Drawing" style="max-width: 100%; height: auto;"/></center>
+<center><img src="/assets/images/rag.png" alt="Drawing" style="max-width: 100%; height: auto;"/></center>
 
 The process typically involves two main stages:
 
@@ -43,7 +43,7 @@ Despite its advantages, integrating retrieval mechanisms in RAG can add complexi
 ## Fine-Tuning
 Fine-tuning is a transfer learning technique widely used to adapt pre-trained language models to specific tasks or domains. The process involves further training the model on task-specific data, such as labeled text samples or domain-specific corpora. By adjusting the model's parameters during fine-tuning, developers can enhance its performance on targeted tasks without needing to train from scratch.
 
-<center><img src="/assets/images/finetuning.PNG" alt="Drawing" style="max-width: 100%; height: auto;"/></center>
+<center><img src="/assets/images/finetuning.png" alt="Drawing" style="max-width: 100%; height: auto;"/></center>
 
 ### Advantages of fine-tuning include:
 
@@ -86,10 +86,10 @@ The best choice depends on your specific needs:
 - **Prompt Engineering:** This is the most lightweight approach, requiring minimal computational resources.
 
 ## Prompting vs Fine-tuning vs RAG
-Let’s now look at a side-by-side comparison of Prompting, Finetuning, and RAG system. This table will help you see the differences and decide which method might be best for what you need.
+In this section, we used the table as below to help you see the differences and decide which method might be best for what you need.
 
-|Feature	Prompting	| Finetuning	| Retrieval Augmented Generation (RAG)|
-|:----------|:---------:|---------:|
+|Feature|	Prompting	| Finetuning	| Retrieval Augmented Generation (RAG)|
+|:----------|:----------|:---------:|---------:|
 
 |Skill Level Required	Low: | Requires a basic understanding of how to construct prompts.	| Moderate to High: Requires knowledge of machine learning principles and model architectures.	| Moderate: Requires understanding of both machine learning and information retrieval systems.|
 
