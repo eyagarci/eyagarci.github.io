@@ -85,6 +85,9 @@ The best choice depends on your specific needs:
 
 - **Prompt Engineering:** This is the most lightweight approach, requiring minimal computational resources.
 
+## Prompting vs Fine-tuning vs RAG
+In this section, we used the table as below to help you see the differences and decide which method might be best for what you need.
+
 | Feature              | Prompting                                                                                 | Finetuning                                                                                   | Retrieval Augmented Generation (RAG)                                                            |
 |----------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | Skill Level Required | Low: Requires a basic understanding of how to construct prompts.                          | Moderate to High: Requires knowledge of machine learning principles and model architectures. | Moderate: Requires understanding of both machine learning and information retrieval systems.   |
@@ -97,19 +100,5 @@ The best choice depends on your specific needs:
 | Ease of Implementation | High: Straightforward to implement with existing tools and interfaces.                  | Low: Requires in-depth setup and training processes.                                          | Medium: Involves integrating language models with retrieval systems.                             |
 
 
-
-## Prompting vs Fine-tuning vs RAG
-In this section, we used the table as below to help you see the differences and decide which method might be best for what you need.
-
-| Feature               | Prompting                                                                                       | Finetuning                                                                                         | Retrieval Augmented Generation (RAG)                                                                |
-|:----------------------|:------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
-| Skill Level Required  | Low: Requires a basic understanding of how to construct prompts.                                 | Moderate to High: Requires knowledge of machine learning principles and model architectures.        | Moderate: Requires understanding of both machine learning and information retrieval systems.        |
-| Pricing and Resources | Low: Uses existing models, minimal computational costs.                                          | High: Significant computational resources needed for training.                                      | Medium: Requires resources for both retrieval systems and model interaction, but less than finetuning.|
-| Customization         | Low: Limited by the model's pre-trained knowledge and the user's ability to craft effective prompts. | High: Allows for extensive customization to specific domains or styles.                             | Medium: Customizable through external data sources, though dependent on their quality and relevance. |
-| Data Requirements     | None: Utilizes pre-trained models without additional data.                                       | High: Requires a large, relevant dataset for effective finetuning.                                  | Medium: Needs access to relevant external databases or information sources.                          |
-| Update Frequency      | Low: Dependent on retraining of the underlying model.                                            | Variable: Dependent on when the model is retrained with new data.                                   | High: Can incorporate the most recent information.                                                   |
-| Quality               | Variable: Highly dependent on the skill in crafting prompts.                                     | High: Tailored to specific datasets, leading to more relevant and accurate responses.               | High: Enhances responses with contextually relevant external information.                            |
-| Use Cases             | General inquiries, broad topics, educational purposes.                                           | Specialized applications, industry-specific needs, customized tasks.                                | Situations requiring up-to-date information, and complex queries involving context.                  |
-| Ease of Implementation| High: Straightforward to implement with existing tools and interfaces.                           | Low: Requires in-depth setup and training processes.                                                | Medium: Involves integrating language models with retrieval systems.                                 |
 ## Conclusion
 In conclusion, prompt engineering, RAG and fine-tuning represent critical strategies for optimizing LLMs in various applications. The choice of technique depends on specific project requirements, data availability, and computational resources. Integrating these techniques judiciously can maximize the effectiveness of LLMs across diverse real-world applications, driving advancements in natural language processing and AI capabilities. By understanding and leveraging these techniques, developers can harness the full potential of LLMs to address complex challenges in today's AI-driven landscape.
