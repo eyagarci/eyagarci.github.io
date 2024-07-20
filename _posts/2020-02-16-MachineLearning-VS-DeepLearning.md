@@ -24,18 +24,22 @@ In supervised learning, the algorithm is provided with a finite set of data whic
 ### Example of Supervised Learning.
 As shown in the above example, we have initially taken some data and marked them as ‘Tom’ or ‘Jerry’. This labeled data is used by the training supervised model, this data is used to train the model.
 Once it is trained we can test our model by testing it with some test new mails and checking of the model can predict the right output.
-Types of Supervised Learning
-Regression: It is a type of problem where the output variable is a real value, such as “dollars” or “weight”.
-Classification: It is a type of problem where the output variable is a category, such as “red” or “blue” or “disease” and “no disease”.
-Overview of Unsupervised Learning
+
+#### Types of Supervised Learning
+- Regression: It is a type of problem where the output variable is a real value, such as “dollars” or “weight”.
+- Classification: It is a type of problem where the output variable is a category, such as “red” or “blue” or “disease” and “no disease”.
+
+#### Overview of Unsupervised Learning
 In unsupervised learning, the algorithm is provided with an unlabelled dataset and it predicts a pattern in the data.
 
 ### Example of Unsupervised Learning
 In the above example, we have given some characters to our model which are ‘Ducks’ and ‘Not Ducks’. In our training data, we don’t provide any label to the corresponding data. The unsupervised model can separate both the characters by looking at the type of data and models the underlying structure or distribution in the data to learn more about it.
-Types of Unsupervised Learning
-Clustering: A clustering problem is where we group similar data according to a pattern in data, such as grouping customers by purchasing behavior.
-Association: An association rule learning problem is where we want to discover rules that describe large portions of your data, such as people that buy X also tend to buy Y.
-Overview of Reinforcement Learning
+
+#### Types of Unsupervised Learning
+- Clustering: A clustering problem is where we group similar data according to a pattern in data, such as grouping customers by purchasing behavior.
+- Association: An association rule learning problem is where we want to discover rules that describe large portions of your data, such as people that buy X also tend to buy Y.
+
+#### Overview of Reinforcement Learning
 In reinforcement learning, the algorithm learns by interacting with the environment. The algorithm adjusts itself based on feedback.
 
 ### Example of Reinforcement Learning
