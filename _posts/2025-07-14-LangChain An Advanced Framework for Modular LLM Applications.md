@@ -4,7 +4,7 @@ date:   2025-07-14 21:00:00
 categories: [LLM]
 tags: [LLM]    
 image:
-  path: /assets/imgs/headers/langChain.png
+  path: /assets/imgs/headers/langchain.jpeg
 ---
 
 
