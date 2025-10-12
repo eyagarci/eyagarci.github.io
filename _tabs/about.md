@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-I'm **Eya Garci**, an experienced Machine Learning Engineer with 7 years of experience, currently contributing to innovative AI projects at HP. I specialize in building end-to-end machine learning systems, combining strong skills in Python, C++, and Java with robust DevOps/MLOps practices for scalable and production-ready solutions.
+I'm **Eya Garci**, an experienced Machine Learning Engineer with 8 years of experience, currently contributing to innovative AI projects at HP. I specialize in building end-to-end machine learning systems, combining strong skills in Python, C++, and Java with robust DevOps/MLOps practices for scalable and production-ready solutions.
 
 My areas of expertise include:
 
