@@ -4,12 +4,15 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-I'm **Eya Garci**, an experienced Machine Learning Engineer with a six-year track record, currently contributing to innovative projects at HP. I possess skills in Python, Java, and C++, and I'm familiar with DevOps practices for seamlessly integrating machine learning models into operational workflows.
+I'm **Eya Garci**, an experienced Machine Learning Engineer with 7 years of experience, currently contributing to innovative AI projects at HP. I specialize in building end-to-end machine learning systems, combining strong skills in Python, C++, and Java with robust DevOps/MLOps practices for scalable and production-ready solutions.
 
-I'm dedicated to delivering excellence and have a diverse skill set in areas such as Machine Learning, Deep Learning, Computer Vision, OCR (Optical Character Recognition), and NLP (Natural Language Processing). This enables me to contribute effectively to various aspects of AI applications.
+My areas of expertise include:
 
-I also have practical experience in MLOps, ensuring that machine learning models are not only developed well but also seamlessly integrated into day-to-day operations.
+- Machine Learning & Deep Learning: Solid foundation in supervised, unsupervised, and self-supervised learning.
+- Computer Vision & OCR: Experience in image recognition, object detection, segmentation, and optical character recognition.
+- Natural Language Processing (NLP): Applied expertise in text classification, NER, and language modeling.
+- Recommender Systems: Design and optimization of personalized recommendation engines.
+- Reinforcement Learning: Application to sequential decision-making and optimization problems.
+- Large Language Models (LLMs): Fine-tuning, prompt engineering, and deploying LLMs for real-world use cases.
 
-In addition to these skills, I've explored Recommender Systems and Generative Models, demonstrating proficiency in advanced machine learning techniques. This makes me a well-rounded professional prepared to tackle diverse challenges in the ever-evolving field of artificial intelligence.
-
-In summary, my goal is to stay updated with the latest tech trends and leverage my skills to drive innovation and success in machine learning and AI.
+I focus on integrating these technologies into real-world workflows, consistently aiming to enhance system performance and business impact across diverse applications.
