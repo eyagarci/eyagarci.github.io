@@ -4,12 +4,15 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-I'm **Eya Garci**, an experienced Machine Learning Engineer with 6 years of expertise, currently contributing to innovative projects at HP. Proficient in Python, C++ and Java, with strong skills in DevOps practices. My commitment to excellence is reflected in a diverse skill set, which includes:
+I'm **Eya Garci**, an experienced Machine Learning Engineer with 8 years of experience, currently contributing to innovative AI projects at HP. I specialize in building end-to-end machine learning systems, combining strong skills in Python, C++, and Java with robust DevOps/MLOps practices for scalable and production-ready solutions.
 
-- Advanced proficiency in Machine Learning and Deep Learning techniques.
-- Extensive experience in Computer Vision, Optical Character Recognition (OCR) and Natural Language Processing (NLP).
-- Specialized knowledge in Large Language Models (LLMs), Recommender Systems and Reinforcement Learning.
+My areas of expertise include:
 
-Additionally, I have practical experience in MLOps, ensuring the seamless integration of machine learning models into operational workflows. My work consistently focuses on enhancing the performance and applicability of these technologies across various domains.
+- Machine Learning & Deep Learning: Solid foundation in supervised, unsupervised, and self-supervised learning.
+- Computer Vision & OCR: Experience in image recognition, object detection, segmentation, and optical character recognition.
+- Natural Language Processing (NLP): Applied expertise in text classification, NER, and language modeling.
+- Recommender Systems: Design and optimization of personalized recommendation engines.
+- Reinforcement Learning: Application to sequential decision-making and optimization problems.
+- Large Language Models (LLMs): Fine-tuning, prompt engineering, and deploying LLMs for real-world use cases.
 
-In summary, my goal is to stay updated with the latest tech trends and leverage my skills to drive innovation and success in machine learning and AI.
+I focus on integrating these technologies into real-world workflows, consistently aiming to enhance system performance and business impact across diverse applications.
