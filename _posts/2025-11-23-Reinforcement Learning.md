@@ -7,9 +7,6 @@ image:
   path: /assets/imgs/headers/RL.jpg
 ---
 
-# Complete Guide to Reinforcement Learning: From Theory to Practice
-
-
 ## Introduction
 
 **Reinforcement Learning (RL)** is a branch of machine learning where an agent learns to make optimal decisions by interacting with its environment. Unlike supervised learning, the agent doesn't have labeled examples but learns through rewards and punishments it receives.
