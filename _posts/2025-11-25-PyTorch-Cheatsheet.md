@@ -1001,9 +1001,9 @@ torch.cuda.empty_cache()
 Transfer learning involves reusing a pre-trained model on a large database (like ImageNet) and adapting it to your specific task. This is particularly useful when you have limited data.
 
 **Advantages:**
-- ⚡ Faster convergence
-- 📊 Better results with limited data
-- 🎯 Reuse of pre-learned features
+- Faster convergence
+- Better results with limited data
+- Reuse of pre-learned features
 
 ### Load a Pre-trained Model
 
@@ -1315,9 +1315,9 @@ if __name__ == '__main__':
 Quantization reduces the precision of weights and activations (from float32 to int8) to decrease model size and accelerate inference, with minimal accuracy loss.
 
 **Advantages:**
-- 📦 Model size reduced by ~75%
-- ⚡ Inference 2-4x faster
-- 💾 Less memory used
+- Model size reduced by ~75%
+- Inference 2-4x faster
+- Less memory used
 
 ### Post-Training Quantization
 
@@ -1377,9 +1377,9 @@ model_quantized = torch.quantization.convert(model_prepared)
 ONNX (Open Neural Network Exchange) is a standard format for representing deep learning models. Exporting to ONNX allows using your PyTorch model in other frameworks or optimizing inference.
 
 **Use cases:**
-- 🚀 Production deployment with ONNX Runtime
-- 🔄 Interoperability between frameworks (PyTorch → TensorFlow)
-- ⚡ Hardware-specific inference optimizations
+- Production deployment with ONNX Runtime
+- Interoperability between frameworks (PyTorch → TensorFlow)
+- Hardware-specific inference optimizations
 
 ### Export to ONNX
 
@@ -1442,10 +1442,10 @@ print(result[0].shape)
 TorchScript allows creating serializable and optimizable models independent of Python. This is essential for production deployment, especially in non-Python environments (C++, mobile).
 
 **Advantages:**
-- 🔒 Independent of Python
-- ⚡ JIT (Just-In-Time) optimizations
-- 📱 Mobile deployment (iOS, Android)
-- 🚀 Improved inference performance
+- Independent of Python
+- JIT (Just-In-Time) optimizations
+- Mobile deployment (iOS, Android)
+- Improved inference performance
 
 ### TorchScript by Tracing
 
@@ -1925,4 +1925,5 @@ tta_transforms = transforms.Compose([
 
 prediction = test_time_augmentation(model, image, tta_transforms)
 ```
+
 
