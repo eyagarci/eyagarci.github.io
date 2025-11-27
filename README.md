@@ -6,7 +6,7 @@ I'm a Machine Learning Engineer with a passion for programming, public speaking,
   
 **Talking about Personal Stuffs:**
 
-- 🔭 I’m currently working on Machine Learning, and Computer Vision Projects.
+- 🔭 I’m currently working on Machine Learning Projects.
 - 👀 I’m interested in anything related to ARTIFICIAL INTELLIGENCE !!
 - 👯 I’m looking to collaborate on any interesting project
 - 💬 Ask me about anything related AI field.
