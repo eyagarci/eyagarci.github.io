@@ -9,7 +9,7 @@ image:
 
 ## Introduction
 
-This cheatsheet is a **comprehensive and practical resource** for mastering explainability and interpretability in Machine Learning. Designed for **Data Scientists, ML Engineers, and AI Researchers**, it covers:
+This article is a **comprehensive and practical resource** for mastering explainability and interpretability in Machine Learning. Designed for **Data Scientists, ML Engineers, and AI Researchers**, it covers:
 
 ✅ **Solid Fundamentals** - Key concepts, types of explanations  
 ✅ **Practical Methods** - SHAP, LIME, PDP, ALE, Counterfactuals  
@@ -60,7 +60,7 @@ Advanced Techniques
 
 ## Table of Contents
 
-### 📚 Fundamentals
+### Fundamentals
 1. [Fundamental Concepts](#fundamental-concepts)
    - Definitions: Interpretability vs Explainability
    - Model Types (Interpretable vs Black-Box)
@@ -69,7 +69,7 @@ Advanced Techniques
    - Global: Model overview
    - Local: Individual prediction explanations
 
-### 🛠️ Methods & Techniques
+### Methods & Techniques
 3. [Choosing the Right Method](#choosing-the-right-method)
    - Decision Framework (decision tree)
    - Quick decision matrix
@@ -1917,6 +1917,7 @@ Before deploying a model to production:
 Explainability and fairness are not optional additions but **essential components** of modern ML.
 
 **Golden rule**: A performant but unexplainable or biased model is often worse than a simpler but interpretable and fair model.
+
 
 
 
