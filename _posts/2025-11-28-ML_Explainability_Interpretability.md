@@ -1,6 +1,6 @@
 ---
 title: "ML Explainability & Interpretability"
-date: 2025-11-27 06:00:00
+date: 2025-11-28 14:00:00
 categories: [machine learning]
 tags: [Machine learning, SHAP, LIME, PDP, ALE, Counterfactuals]    
 image:
@@ -60,7 +60,7 @@ Advanced Techniques
 
 ## Table of Contents
 
-###  Fundamentals
+### 📚 Fundamentals
 1. [Fundamental Concepts](#fundamental-concepts)
    - Definitions: Interpretability vs Explainability
    - Model Types (Interpretable vs Black-Box)
@@ -1749,7 +1749,7 @@ print(metric_frame.by_group)
 
 ---
 
-## 🎯 Best Practices
+## Best Practices
 
 ### ✅ Do's
 1. **Use multiple methods**: No single perfect method
@@ -1770,7 +1770,7 @@ print(metric_frame.by_group)
 
 ---
 
-##  Use Cases by Domain
+## 📊 Use Cases by Domain
 
 ### Healthcare
 - **Priority**: Trustworthiness, safety
@@ -1872,102 +1872,6 @@ print(metric_frame.by_group)
 
 ---
 
-## Benchmarks & Comparisons
-
-### Performance Comparison
-
-| Method | Latency (1 instance) | Scalability (1000 instances) | Memory | Stability | Theoretical Guarantee |
-|--------|---------------------|------------------------------|--------|-----------|----------------------|
-| **TreeSHAP** | 5ms | 5s | Medium | ⭐⭐⭐⭐⭐ | ✅ Yes (Shapley) |
-| **KernelSHAP** | 500ms | 500s | High | ⭐⭐⭐ | ✅ Yes (Shapley) |
-| **LIME** | 200ms | 200s | Medium | ⭐⭐ | ❌ No |
-| **Permutation** | 100ms | 100s | Low | ⭐⭐⭐⭐ | ⚠️ Partial |
-| **PDP** | 50ms | 10s | Low | ⭐⭐⭐⭐⭐ | ⚠️ If independence |
-| **ALE** | 80ms | 15s | Medium | ⭐⭐⭐⭐ | ✅ Yes |
-| **Counterfactuals** | 1-5s | 1000-5000s | Medium | ⭐⭐ | ❌ No |
-
-**Note**: Measurements on Random Forest (100 trees, 50 features, 10k instances)
-
-### Accuracy Comparison
-
-**Fidelity Test** (correlation with true importance):
-
-```python
-# Ground truth: known linear model
-X, y, true_coefs = generate_linear_data(n_samples=1000, n_features=20)
-model = LinearRegression().fit(X, y)
-
-# Compare methods
-shap_importance = abs(shap_values).mean(0)
-lime_importance = get_lime_global(model, X)
-perm_importance = permutation_importance(model, X, y).importances_mean
-
-from scipy.stats import spearmanr
-print(f"SHAP vs Truth: {spearmanr(shap_importance, abs(true_coefs)).correlation:.3f}")
-print(f"LIME vs Truth: {spearmanr(lime_importance, abs(true_coefs)).correlation:.3f}")
-print(f"Perm vs Truth: {spearmanr(perm_importance, abs(true_coefs)).correlation:.3f}")
-
-# Typical results:
-# SHAP: 0.95-0.99 ✅
-# LIME: 0.70-0.85 ⚠️
-# Perm: 0.90-0.95 ✅
-```
-
-### Stability Comparison
-
-**Variance Test** (10 runs with random seed):
-
-```python
-import numpy as np
-
-methods_variance = {
-    'SHAP': 0.001,      # Very stable ⭐⭐⭐⭐⭐
-    'LIME': 0.15,       # Unstable ⭐⭐
-    'Permutation': 0.02 # Stable ⭐⭐⭐⭐
-}
-```
-
-### Cost-Benefit Analysis
-
-| Method | Setup Cost | Runtime Cost | Maintenance | Interpretability | Best For |
-|--------|-----------|--------------|-------------|------------------|----------|
-| **SHAP** | Medium | Medium-High | Low | ⭐⭐⭐⭐⭐ | Production (tree models) |
-| **LIME** | Low | Medium | Medium | ⭐⭐⭐⭐ | Prototyping, debugging |
-| **Permutation** | Low | Low | Low | ⭐⭐⭐ | Quick audit, feature selection |
-| **PDP/ALE** | Low | Low | Low | ⭐⭐⭐⭐ | EDA, relationship analysis |
-| **Counterfactuals** | High | High | High | ⭐⭐⭐⭐⭐ | High-stakes decisions |
-
-### Recommendation Matrix
-
-**Choose SHAP when**:
-- ✅ Tree-based model (XGBoost, Random Forest)
-- ✅ Need theoretical guarantees
-- ✅ Production deployment
-- ✅ Both global + local needed
-
-**Choose LIME when**:
-- ✅ Quick prototyping
-- ✅ Non-standard model types
-- ✅ Text/Image explanations
-- ❌ NOT for high-stakes decisions (instability)
-
-**Choose Permutation Importance when**:
-- ✅ Quick feature selection
-- ✅ Model-agnostic ranking
-- ✅ Computational budget limited
-
-**Choose ALE/PDP when**:
-- ✅ Understanding feature relationships
-- ✅ Communicating to non-technical audience
-- ✅ ALE if features correlated
-
-**Choose Counterfactuals when**:
-- ✅ Need actionable recommendations
-- ✅ "What to change?" questions
-- ✅ Recourse/contestation scenarios
-
----
-
 ## Final Checklist
 
 Before deploying a model to production:
@@ -2013,7 +1917,6 @@ Before deploying a model to production:
 Explainability and fairness are not optional additions but **essential components** of modern ML.
 
 **Golden rule**: A performant but unexplainable or biased model is often worse than a simpler but interpretable and fair model.
-
 
 
 
