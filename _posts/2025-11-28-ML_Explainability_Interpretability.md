@@ -131,7 +131,7 @@ Advanced Techniques
     - Do's and Don'ts
     - Deployment checklist
 
-12. [Use Cases by Domain](#use-cases-by-domain)
+12. [Use Cases by Domain](#use-cases-by-domain)  
     - Healthcare
     - Finance
     - Justice
@@ -1770,7 +1770,7 @@ print(metric_frame.by_group)
 
 ---
 
-## 📊 Use Cases by Domain
+## Use Cases by Domain
 
 ### Healthcare
 - **Priority**: Trustworthiness, safety
@@ -1917,6 +1917,7 @@ Before deploying a model to production:
 Explainability and fairness are not optional additions but **essential components** of modern ML.
 
 **Golden rule**: A performant but unexplainable or biased model is often worse than a simpler but interpretable and fair model.
+
 
 
 
