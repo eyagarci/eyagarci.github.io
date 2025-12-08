@@ -1395,9 +1395,9 @@ from guidance import models, gen
 gpt = models.OpenAI("gpt-4")
 
 response = gpt + f"""
-{{{{"answer": "{gen(name='answer', max_tokens=100)}",
+{% raw %}{{{{"answer": "{gen(name='answer', max_tokens=100)}",
   "confidence": {gen(name='confidence', regex='[0-9]\\.[0-9]+')},
-  "sources": [{gen(name='sources', list_append=True, stop=']')}]}}}}
+  "sources": [{gen(name='sources', list_append=True, stop=']')}]}}}}{% endraw %}
 """
 
 # Guaranteed valid JSON
@@ -1900,14 +1900,14 @@ Text:
 {text}
 
 JSON (use null for missing entities):
-{{
+{% raw %}{{
   "person_names": [],
   "organizations": [],
   "locations": [],
   "dates": [],
   "monetary_values": [],
   "key_metrics": []
-}}
+}}{% endraw %}
 
 Extracted JSON:"""
 
@@ -1918,12 +1918,12 @@ Extract relationships between entities:
 Text: {text}
 
 For each relationship found, provide:
-{{
+{% raw %}{{
   "subject": "entity1",
   "predicate": "relationship_type",
   "object": "entity2",
   "confidence": 0.95
-}}
+}}{% endraw %}
 
 Relationships (JSON array):"""
 ```
@@ -2145,15 +2145,15 @@ Analyze:
 6. Sentiment by aspect (if multiple topics discussed)
 
 Provide as JSON:
-{{
+{% raw %}{{
   "overall_sentiment": 75,
   "label": "Positive",
-  "emotions": {{}},
+  "emotions": {},
   "subjectivity": 60,
   "intensity": "Strong",
   "key_phrases": [],
-  "aspect_sentiments": {{}}
-}}
+  "aspect_sentiments": {}
+}}{% endraw %}
 
 Analysis:"""
 ```
