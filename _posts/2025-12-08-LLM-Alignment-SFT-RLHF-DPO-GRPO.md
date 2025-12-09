@@ -58,8 +58,7 @@ For each technique, we will explore:
 4. [Step 3: DPO - Direct Preference Optimization](#step-3-dpo---direct-preference-optimization)
 5. [Step 4: GRPO - Group Relative Policy Optimization](#step-4-grpo---group-relative-policy-optimization)
 6. [Comparisons and Method Selection](#comparisons-and-method-selection)
-7. [Complete Practical Implementation](#complete-practical-implementation)
-8. [Production and Best Practices](#production-and-best-practices)
+7. [Production and Best Practices](#production-and-best-practices)
 
 ---
 
@@ -2522,7 +2521,6 @@ trained_model = train_grpo(model, ref_model, prompts_list, reward_model)
 - **Arena Elo**: Ranking by battles
 
 ### Conclusion
-
 The journey from raw pre-trained models to aligned, helpful assistants represents one of the most remarkable achievements in modern AI. What started with ChatGPT's revolutionary RLHF approach has evolved into an ecosystem of increasingly efficient and accessible techniques.
 
 **The Evolution Timeline**:
