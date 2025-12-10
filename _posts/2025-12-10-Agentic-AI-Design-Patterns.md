@@ -4,7 +4,7 @@ date: 2025-12-10 10:00:00
 categories: [LLM]
 tags: [agentic-ai, design-patterns, autonomy, intelligent-agents, ai-architecture]
 image:
-  path: /assets/imgs/headers/Agentic_AI.png
+  path: /assets/imgs/headers/Agentic_AI.jpeg
 ---
 
 ## Introduction
@@ -262,5 +262,6 @@ Agentic AI represents a major paradigm shift in our conception of artificial int
 **Agentic design patterns** provide solid foundations for building these complex systems. By judiciously combining reactive, goal-oriented, hierarchical, adaptive, and collaborative patterns, developers can create agents that are simultaneously performant, robust, and ethical.
 
 The future belongs to systems capable not only of executing tasks but of **understanding contexts, anticipating needs, and intelligently collaborating** with humans. Agentic AI is the key to this transformation.
+
 
 
