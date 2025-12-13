@@ -1,7 +1,7 @@
 ---
 title: "Deep Learning Guide"
 date:   2025-11-22 19:00:00
-categories: [Deep Learning, Machine Learning]
+categories: [Machine-Learning]
 tags: [Deep Learning, Machine Learning]    
 image:
   path: /assets/imgs/headers/deeplearning.jpg
@@ -2049,4 +2049,5 @@ Near goal: on foot (slow, precise)
 **Underfitting**: Model too simple
 
 **Regularization**: Techniques against overfitting
+
 
