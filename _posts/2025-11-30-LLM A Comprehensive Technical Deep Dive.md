@@ -1,7 +1,7 @@
 ﻿---
 title: "Large Language Models: A Comprehensive Technical Deep Dive"
 date: 2025-11-30 09:00:00 
-categories: [LLM, AI, Deep Learning]
+categories: [LLM]
 tags: [LLM, Transformers, AI, NLP, GPT, Deep Learning, Neural Networks, Attention Mechanisms, BERT, Pre-training]
 image:
   path: /assets/imgs/headers/llm.jpg
@@ -1169,3 +1169,4 @@ The era of large language models is not merely a chapter in AI history—it repr
 How we navigate this transformation—ensuring these powerful technologies benefit humanity broadly while mitigating risks and addressing ethical concerns proactively—will define not just the future of AI, but the future of human civilization itself. The responsibility lies with all of us: researchers, developers, policymakers, and users alike.
 
 The journey has only begun, and the possibilities are boundless. With thoughtful development, robust safety measures, and a commitment to beneficial outcomes, LLMs can help create a future where human potential is amplified, knowledge is democratized, and our greatest challenges become opportunities for collective progress.
+
