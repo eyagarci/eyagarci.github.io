@@ -2,7 +2,7 @@
 title: "Advanced Fine-Tuning Techniques: LoRA, QLoRA, PEFT, and RLHF"
 date: 2025-12-07 14:00:00
 categories: [LLM]
-tags: [LLM, Fine-tuning, LoRA, QLoRA, PEFT, RLHF, Adapters]
+tags: [LLM, Fine-Tuning, LoRA, QLoRA, PEFT, RLHF, Adapters]
 image:
   path: /assets/imgs/headers/fine_tuning_advanced.png
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Scikit Learn Overview"
 date:   2024-02-25 22:00:00
-categories: [Machine-Learning]
-tags: [Machine learning,Python]    
+categories: [Machine Learning]
+tags: [Machine-Learning, Scikit-Learn, Python, Classification, Regression]    
 image:
   path: /assets/imgs/headers/scikitLearn.png
 ---

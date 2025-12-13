@@ -2,7 +2,7 @@
 title: "LLM Alignment: Complete Guide on SFT, RLHF, DPO, and GRPO"
 date: 2025-12-08 20:00:00
 categories: [LLM]
-tags: [LLM, Alignment, SFT, RLHF, DPO, GRPO, Fine-tuning, Artificial-Intelligence]
+tags: [LLM, Alignment, SFT, RLHF, DPO, GRPO, Human-Feedback]
 image:
   path: /assets/imgs/headers/llm_alignment.jpeg
 ---

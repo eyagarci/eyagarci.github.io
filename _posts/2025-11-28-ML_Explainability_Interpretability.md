@@ -1,8 +1,8 @@
 ---
 title: "ML Explainability & Interpretability"
 date: 2025-11-28 14:00:00
-categories: [Machine-Learning]
-tags: [Machine learning, SHAP, LIME, PDP, ALE, Counterfactuals]    
+categories: [Machine Learning]
+tags: [Machine-Learning, Explainability, Interpretability, SHAP, LIME, XAI]    
 image:
   path: /assets/imgs/headers/inter.jpg
 ---

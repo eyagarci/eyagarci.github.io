@@ -2,7 +2,7 @@
 title: "LangChain An Advanced Framework for Modular LLM Applications"
 date:   2025-07-14 21:00:00
 categories: [LLM]
-tags: [LLM]    
+tags: [LLM, LangChain, Framework, Chains, Agents, RAG]    
 image:
   path: /assets/imgs/headers/langchain.jpeg
 ---

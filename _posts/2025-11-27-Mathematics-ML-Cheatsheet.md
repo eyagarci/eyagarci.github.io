@@ -1,8 +1,8 @@
 ---
 title: "Mathematics ML Cheatsheet"
 date: 2025-11-27 06:00:00
-categories: [Machine-Learning]
-tags: [Mathematics, Probability, Statistics]    
+categories: [Machine Learning]
+tags: [Mathematics, Linear-Algebra, Statistics, Probability, Machine-Learning]    
 image:
   path: /assets/imgs/headers/math.jpeg
 ---

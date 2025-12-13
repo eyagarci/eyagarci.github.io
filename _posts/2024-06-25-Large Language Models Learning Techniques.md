@@ -2,7 +2,7 @@
 title: "Large Language Models Learning Techniques"
 date:   2024-06-23 20:00:00 
 categories: [LLM]
-tags: [LLM, AI, Finetuning, RAG, Prompt Engineering ]    
+tags: [LLM, Fine-Tuning, RAG, Prompt-Engineering, Transfer-Learning]    
 image:
   path: /assets/imgs/headers/llm_techniques.jfif
 ---

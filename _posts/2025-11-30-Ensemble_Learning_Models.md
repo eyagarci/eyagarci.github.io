@@ -1,8 +1,8 @@
 ---
 title: "Ensemble Learning Models"
 date:   2025-11-30 03:00:00
-categories: [Machine-Learning]
-tags: [Ensemble Learning]  
+categories: [Machine Learning]
+tags: [Machine-Learning, Ensemble-Learning, Random-Forest, Boosting, Bagging]  
 image:
   path: /assets/imgs/headers/ensemble_learning.png
 ---

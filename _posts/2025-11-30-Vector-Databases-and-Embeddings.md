@@ -2,7 +2,7 @@
 title: "Vector Databases and Embeddings: The Foundation of RAG Systems"
 date: 2025-11-30 13:00:00
 categories: [LLM]
-tags: [LLM, Vector Database, Embeddings, RAG, Pinecone, Weaviate, Qdrant, ChromaDB]
+tags: [LLM, Vector-Database, Embeddings, RAG, Pinecone, Weaviate, Semantic-Search]
 image:
   path: /assets/imgs/headers/vector_db.png
 ---

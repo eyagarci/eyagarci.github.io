@@ -2,7 +2,7 @@
 title: "Advanced Data Analytics"
 date:   2024-04-04 22:00:00
 categories: [Data]
-tags: [Data]    
+tags: [Data-Analysis, Data-Science, Analytics, Business-Intelligence]    
 image:
   path: /assets/imgs/headers/dataAnalysis2.jfif
 ---

@@ -2,7 +2,7 @@
 title: "Advanced Prompt Engineering: Techniques for Professional LLM Applications"
 date: 2025-12-03 10:00:00
 categories: [LLM]
-tags: [LLM, Prompt Engineering, Chain-of-Thought, ReAct, Few-Shot, Tree-of-Thoughts]
+tags: [LLM, Prompt-Engineering, Chain-of-Thought, ReAct, Few-Shot, Zero-Shot]
 image:
   path: /assets/imgs/headers/prompt_engineering_advanced.png
 ---

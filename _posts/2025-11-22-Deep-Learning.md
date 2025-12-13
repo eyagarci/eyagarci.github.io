@@ -1,8 +1,8 @@
 ---
 title: "Deep Learning Guide"
 date:   2025-11-22 19:00:00
-categories: [Machine-Learning]
-tags: [Deep Learning, Machine Learning]    
+categories: [Machine Learning]
+tags: [Deep-Learning, Neural-Networks, Machine-Learning, AI]    
 image:
   path: /assets/imgs/headers/deeplearning.jpg
 ---

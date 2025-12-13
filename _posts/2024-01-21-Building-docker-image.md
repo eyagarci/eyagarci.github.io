@@ -2,7 +2,7 @@
 title: "Building Docker Image"
 date:   2024-01-21 22:00:00
 categories: [DevOps]
-tags: [docker,docs,linux,windows]    
+tags: [Docker, Containerization, DevOps]    
 image:
   path: /assets/imgs/headers/docker.webp
 ---

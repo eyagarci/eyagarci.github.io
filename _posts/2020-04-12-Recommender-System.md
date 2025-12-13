@@ -2,7 +2,7 @@
 title:  "Recommender systems"
 date:   2020-04-12 23:00:00
 categories: [AI]
-tags: [docs,ai, rs]    
+tags: [AI, Recommender-Systems, Collaborative-Filtering, Machine-Learning]    
 image:
   path: /assets/imgs/headers/rs.jpg
 ---

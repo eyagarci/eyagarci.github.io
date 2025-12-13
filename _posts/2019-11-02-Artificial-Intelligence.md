@@ -2,7 +2,7 @@
 title:  "Introduction to Artificial Intelligence"
 date:   2019-11-02 22:00:00
 categories: [AI]
-tags: [docs,ai]    
+tags: [AI, Artificial-Intelligence, Introduction]    
 image:
   path: /assets/imgs/headers/ai.jpg
 ---

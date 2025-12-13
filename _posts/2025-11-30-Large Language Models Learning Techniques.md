@@ -2,7 +2,7 @@
 title: "Large Language Models Learning Techniques: A Comprehensive Guide"
 date: 2025-11-30 11:00:00 
 categories: [LLM]
-tags: [LLM, AI, Finetuning, RAG, Prompt Engineering, PEFT, LoRA, Transfer Learning]    
+tags: [LLM, Fine-Tuning, RAG, Prompt-Engineering, PEFT, LoRA, Transfer-Learning]    
 image:
   path: /assets/imgs/headers/llm_techniques.png
 ---

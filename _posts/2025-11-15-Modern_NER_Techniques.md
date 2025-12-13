@@ -1,8 +1,8 @@
 ---
 title: "Named Entity Recognition: Modern Techniques"
 date: 2025-11-15 14:00:00
-categories: [Machine-Learning]
-tags: [ner, nlp, deep-learning, python, transformers, ai]    
+categories: [Machine Learning]
+tags: [NER, NLP, Machine-Learning, Transformers, BERT, SpaCy]    
 image:
   path: /assets/imgs/headers/ner.jpg
 ---

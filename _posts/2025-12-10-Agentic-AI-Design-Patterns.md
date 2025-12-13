@@ -2,7 +2,7 @@
 title: "Agentic AI: Paradigms and Design Patterns for Intelligent Autonomous Systems"
 date: 2025-12-10 10:00:00
 categories: [LLM]
-tags: [agentic-ai, design-patterns, autonomy, intelligent-agents, ai-architecture]
+tags: [LLM, Agentic-AI, Agents, Design-Patterns, Autonomous-Systems, ReAct]
 image:
   path: /assets/imgs/headers/Agentic_AI.jpeg
 ---

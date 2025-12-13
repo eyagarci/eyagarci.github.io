@@ -2,7 +2,7 @@
 title: "LangGraph: Orchestrating LLM Agents via Explicit Control Graphs"
 date:   2025-07-15 22:00:00
 categories: [LLM]
-tags: [LLM]    
+tags: [LLM, LangGraph, Agents, Workflows, State-Management, LangChain]    
 image:
   path: /assets/imgs/headers/LangGraph.png
 ---

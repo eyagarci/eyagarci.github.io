@@ -2,7 +2,7 @@
 title: "Large Language Models: A Comprehensive Technical Deep Dive"
 date: 2025-11-30 09:00:00 
 categories: [LLM]
-tags: [LLM, Transformers, AI, NLP, GPT, Deep Learning, Neural Networks, Attention Mechanisms, BERT, Pre-training]
+tags: [LLM, Transformers, Attention-Mechanism, GPT, BERT, Pre-Training, Architecture]
 image:
   path: /assets/imgs/headers/llm.jpg
 ---

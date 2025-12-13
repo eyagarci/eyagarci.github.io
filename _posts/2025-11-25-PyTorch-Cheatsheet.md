@@ -1,8 +1,8 @@
 ---
 title: "PyTorch Cheatsheet - Practical Guide"
 date: 2025-11-25 16:00:00
-categories: [Machine-Learning]
-tags: [Pytorch, machine learning, deep learning]    
+categories: [Machine Learning]
+tags: [PyTorch, Deep-Learning, Neural-Networks, Python, Framework]    
 image:
   path: /assets/imgs/headers/pytorch.png
 ---
