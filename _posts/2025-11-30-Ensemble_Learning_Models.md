@@ -1,7 +1,7 @@
 ---
 title: "Ensemble Learning Models"
 date:   2025-11-30 03:00:00
-categories: [Machine Learning]
+categories: [Machine-Learning]
 tags: [Ensemble Learning]  
 image:
   path: /assets/imgs/headers/ensemble_learning.png
@@ -2153,4 +2153,5 @@ Ensemble learning represents one of the most powerful and practical approaches i
 7. Monitor and interpret model behavior
 
 Ensemble learning is not just about combining models—it's about strategically leveraging their complementary strengths to build robust, accurate, and reliable machine learning systems.
+
 
