@@ -1,7 +1,7 @@
 ---
 title: "Mastering Data Visualization with Matplotlib and Seaborn"
 date:   2024-03-10 22:00:00
-categories: [Dev]
+categories: [Data]
 tags: [Dev,Python]    
 image:
   path: /assets/imgs/headers/data_visualization.jfif
