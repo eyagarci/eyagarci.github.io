@@ -1,8 +1,8 @@
 ---
 title: "Mathematics ML Cheatsheet"
 date: 2025-11-27 06:00:00
-categories: [Mathematics, machine learning]
-tags: [Mathematics, Probability, Statistics, Machine learning]    
+categories: [Machine-Learning]
+tags: [Mathematics, Probability, Statistics]    
 image:
   path: /assets/imgs/headers/math.jpeg
 ---
@@ -1333,3 +1333,4 @@ Av = λv
 # SVD
 A = UΣV^T
 ```
+
