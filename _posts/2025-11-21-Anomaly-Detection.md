@@ -1,7 +1,7 @@
 ---
 title: "Anomaly Detection: Complete Professional Guide"
 date:   2025-11-21 17:00:00
-categories: [Anomaly Detection, Machine Learning]
+categories: [Machine-Learning]
 tags: [Anomaly Detection, Outlier Detection, Machine Learning, Data Science]    
 image:
   path: /assets/imgs/headers/AnomalyDetection.png
