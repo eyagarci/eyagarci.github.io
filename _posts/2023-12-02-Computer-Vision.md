@@ -1,7 +1,7 @@
 ---
 title:  "Computer Vision"
 date:   2023-12-02 22:00:00
-categories: [ai]
+categories: [AI]
 tags: [docs,ai, ComputerVision]    
 image:
   path: /assets/imgs/headers/cv.webp
