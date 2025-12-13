@@ -1,7 +1,7 @@
 ---
 title: "Complete Guide to Reinforcement Learning: From Theory to Practice"
 date: 2025-11-23 14:00:00
-categories: [machine learning, reinforcement learning]
+categories: [Machine-Learning]
 tags: [rl, deep learning]    
 image:
   path: /assets/imgs/headers/RL.jpg
