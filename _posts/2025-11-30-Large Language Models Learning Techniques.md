@@ -1,7 +1,7 @@
 ---
 title: "Large Language Models Learning Techniques: A Comprehensive Guide"
 date: 2025-11-30 11:00:00 
-categories: [LLM, AI, Machine Learning]
+categories: [LLM]
 tags: [LLM, AI, Finetuning, RAG, Prompt Engineering, PEFT, LoRA, Transfer Learning]    
 image:
   path: /assets/imgs/headers/llm_techniques.png
@@ -1316,4 +1316,5 @@ The field of LLM adaptation is rapidly evolving. What requires fine-tuning today
 5. **Focus on value** - technique choice matters less than solving user problems
 
 By understanding these fundamental techniques and their trade-offs, developers can build LLM applications that are not only powerful and accurate but also efficient, maintainable, and cost-effective. The future of AI development lies not in choosing a single approach, but in thoughtfully combining techniques to create systems that leverage the best of what each has to offer.
+
 
