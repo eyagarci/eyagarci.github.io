@@ -1,7 +1,7 @@
 ---
 title: "Time Series Forecasting: Theories, Methods and Modern Applications"
 date:   2025-11-18 22:00:00
-categories: [Data Science, Time Series]
+categories: [Data]
 tags: [Forecasting, Time Series, Machine Learning, ARIMA, LSTM, XGBoost, Statistics]  
 image:
   path: /assets/imgs/headers/forecast.png
