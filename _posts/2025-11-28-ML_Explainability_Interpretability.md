@@ -1,7 +1,7 @@
 ---
 title: "ML Explainability & Interpretability"
 date: 2025-11-28 14:00:00
-categories: [machine learning]
+categories: [Machine-Learning]
 tags: [Machine learning, SHAP, LIME, PDP, ALE, Counterfactuals]    
 image:
   path: /assets/imgs/headers/inter.jpg
@@ -1917,6 +1917,7 @@ Before deploying a model to production:
 Explainability and fairness are not optional additions but **essential components** of modern ML.
 
 **Golden rule**: A performant but unexplainable or biased model is often worse than a simpler but interpretable and fair model.
+
 
 
 
