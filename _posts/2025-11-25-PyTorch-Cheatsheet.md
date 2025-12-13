@@ -1,8 +1,8 @@
 ---
 title: "PyTorch Cheatsheet - Practical Guide"
 date: 2025-11-25 16:00:00
-categories: [machine learning, deep learning]
-tags: [pytorch, machine learning, deep learning]    
+categories: [Machine-Learning]
+tags: [Pytorch, machine learning, deep learning]    
 image:
   path: /assets/imgs/headers/pytorch.png
 ---
@@ -1925,5 +1925,6 @@ tta_transforms = transforms.Compose([
 
 prediction = test_time_augmentation(model, image, tta_transforms)
 ```
+
 
 
