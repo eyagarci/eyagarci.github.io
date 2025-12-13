@@ -1,7 +1,7 @@
 ---
 title: "Named Entity Recognition: Modern Techniques"
 date: 2025-11-15 14:00:00
-categories: [machine-learning, natural-language-processing]
+categories: [Machine-Learning]
 tags: [ner, nlp, deep-learning, python, transformers, ai]    
 image:
   path: /assets/imgs/headers/ner.jpg
@@ -1077,5 +1077,6 @@ The future of NER is moving towards more general, explainable, and efficient mod
 3. Implement performance monitoring and drift detection
 4. Regularly audit for bias and GDPR/HIPAA compliance
 5. Optimize for production (quantization, ONNX, caching)
+
 
 
