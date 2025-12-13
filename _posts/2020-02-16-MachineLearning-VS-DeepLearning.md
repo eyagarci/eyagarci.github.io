@@ -1,7 +1,7 @@
 ---
 title:  "Machine Learning VS Deep Learning"
 date:   2020-02-16 23:00:00
-categories: [ai]
+categories: [AI]
 tags: [docs,ai, MachineLearning, DeepLearning]    
 image:
   path: /assets/imgs/headers/MLvsDL.webp
